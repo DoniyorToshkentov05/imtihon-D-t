@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Roboto:ital,wght@1,100&family=Tiro+Gurmukhi&display=swap");
 .rooms {
   display: flex;
   justify-content: center;
@@ -369,6 +370,632 @@
     height: 423.727px;
     margin-top: -150px;
     margin-left: -650px;
+  }
+}
+footer {
+  width: 1440px;
+  height: 1600px;
+  margin: 0 auto;
+  background-color: #FFFCF6;
+}
+footer .phone {
+  width: 480px;
+  height: 80px;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+footer .phone h2 {
+  color: #1B3B36;
+  text-align: center;
+  font-family: Helvetica Neue LT Std;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+}
+footer .phone .restangle {
+  width: 450px;
+  height: 1px;
+  margin-left: 18px;
+  opacity: 0.48;
+  background: #313F38;
+}
+footer .chynu_lviv {
+  width: 284px;
+  height: 62px;
+  margin-top: 63px;
+  margin-left: 950px;
+}
+footer .chynu_lviv p {
+  color: #1B3B36;
+  font-family: Helvetica Neue LT Std;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+footer .getin_text {
+  display: flex;
+  width: 800px;
+  height: 200px;
+  margin-top: 70px;
+  margin-left: 30px;
+  gap: 60px;
+}
+footer .getin_text h2 {
+  color: var(--text, #1B3B36);
+  font-family: "Cinzel", serif;
+  font-size: 180px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 250px; /* 100% */
+  text-transform: uppercase;
+}
+footer .getin_text .git_touch_img {
+  margin-top: 50px;
+}
+footer .getin_text .git_touch_img svg {
+  width: 110px;
+}
+footer .jean_img {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  margin-left: 950px;
+  margin-top: -200px;
+  background-image: url(/img/jean-philippe-delberghe-T5BF4OyQLwU-unsplash\ 1.png);
+}
+footer .touch_img {
+  z-index: 2;
+  position: absolute;
+  width: 700px;
+  height: 200px;
+  margin-left: 710px;
+  margin-top: 60px;
+}
+footer .touch_img h2 {
+  color: var(--secondary-color, #FCD043);
+  font-family: Miracle;
+  font-size: 200px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+footer .find_room_txt {
+  width: 200px;
+  height: 30px;
+  margin-top: 400px;
+  margin-left: 30px;
+}
+footer .find_room_txt h3 {
+  color: var(--text, #1B3B36);
+  font-family: Helvetica Neue LT Std;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+footer .find_room_list {
+  display: flex;
+  width: 650px;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+footer .find_room_list .find_room_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 100px;
+  margin-top: -5px;
+  border: 1px solid #313F38;
+}
+footer .find_room_list .find_room_menu .check_in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 225px;
+  height: 99px;
+}
+footer .find_room_list .find_room_menu .check_in h5 {
+  color: var(--text, #1B3B36);
+  font-family: Helvetica Neue LT Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  text-transform: uppercase;
+}
+footer .find_room_list .find_room_menu .check_in img {
+  margin-top: -9px;
+}
+footer .find_room_list .find_room_menu .restangle_find {
+  width: 1px;
+  height: 60px;
+  flex-shrink: 0;
+  opacity: 0.24;
+  background: #313F38;
+}
+footer .find_room_list .find_room_menu .check_out {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 225px;
+  height: 99px;
+}
+footer .find_room_list .find_room_menu .check_out h5 {
+  color: var(--text, #1B3B36);
+  font-family: Helvetica Neue LT Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  text-transform: uppercase;
+}
+footer .find_room_list .find_room_menu .check_out img {
+  margin-top: -9px;
+}
+footer .find_room_list .find_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 100px;
+}
+footer .find_room_list .find_btn button {
+  width: 200px;
+  height: 100px;
+  flex-shrink: 0;
+  color: #FFFCF6;
+  text-align: center;
+  font-family: Helvetica Neue LT Std;
+  font-size: 18px;
+  margin-top: -9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 111.111% */
+  text-transform: uppercase;
+  border: none;
+  background-color: #1B3B36;
+}
+footer .footer_menu {
+  display: flex;
+  width: 1400px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+footer .footer_menu .about {
+  width: 350px;
+  height: 100%;
+}
+footer .footer_menu .about h2 {
+  color: var(--text, #1B3B36);
+  font-family: Helvetica Neue LT Std;
+  margin-top: 60px;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+footer .footer_menu .about h2 span {
+  color: #FCD043;
+}
+footer .footer_menu .about p {
+  width: 300px;
+  color: var(--text, #1B3B36);
+  font-family: Helvetica Neue LT Std;
+  margin-top: 30px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+footer .footer_menu .about .bank_hotel_txt {
+  color: var(--text, #1B3B36);
+  font-family: Helvetica Neue LT Std;
+  margin-top: 65px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  opacity: 0.32;
+}
+footer .footer_menu .news {
+  width: 350px;
+  height: 100%;
+}
+footer .footer_menu .news h2 {
+  color: var(--text, #1B3B36);
+  font-family: Helvetica Neue LT Std;
+  margin-top: 60px;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+footer .footer_menu .news h2 span {
+  color: #FCD043;
+}
+footer .footer_menu .news p {
+  width: 300px;
+  color: var(--text, #1B3B36);
+  font-family: Helvetica Neue LT Std;
+  margin-top: 30px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+footer .footer_menu .news .email {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  margin-top: 50px;
+  border: 1px solid #313F38;
+}
+footer .footer_menu .news .email input {
+  display: flex;
+  border: none;
+  margin-left: 10px;
+}
+footer .footer_menu .news .email svg {
+  display: flex;
+  margin-left: 60px;
+}
+footer .footer_menu .social {
+  width: 350px;
+  height: 100%;
+}
+footer .footer_menu .social h2 {
+  color: var(--text, #1B3B36);
+  font-family: Helvetica Neue LT Std;
+  margin-top: 60px;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+footer .footer_menu .social h2 span {
+  color: #FCD043;
+}
+footer .footer_menu .social ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-top: 30px;
+  margin-left: -35px;
+}
+footer .footer_menu .social ul li {
+  color: var(--text, #1B3B36);
+  font-family: Helvetica Neue LT Std;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    width: 1024px;
+    height: 1600px;
+    border: 1px solid red;
+  }
+  footer .phone {
+    width: 250px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  footer .phone h2 {
+    color: #1B3B36;
+    text-align: center;
+    font-family: Helvetica Neue LT Std;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  footer .phone .restangle {
+    width: 230px;
+    height: 1px;
+    margin-left: 10px;
+    opacity: 0.48;
+    background: #313F38;
+  }
+  footer .chynu_lviv {
+    width: 164px;
+    height: 15px;
+    margin-top: 33px;
+    margin-left: 700px;
+  }
+  footer .chynu_lviv p {
+    color: #1B3B36;
+    font-family: Helvetica Neue LT Std;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  footer .getin_text {
+    display: flex;
+    width: 500px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 10px;
+    gap: 20px;
+  }
+  footer .getin_text h2 {
+    color: var(--text, #1B3B36);
+    font-family: "Cinzel", serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 250px; /* 100% */
+    text-transform: uppercase;
+  }
+  footer .getin_text .git_touch_img {
+    margin-top: 50px;
+  }
+  footer .getin_text .git_touch_img svg {
+    width: 70px;
+  }
+  footer .jean_img {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 700px;
+    margin-top: -20px;
+    background-image: url(/img/jean-philippe-delberghe-T5BF4OyQLwU-unsplash\ 1.png);
+  }
+  footer .touch_img {
+    z-index: 2;
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    margin-left: 685px;
+    margin-top: 190px;
+  }
+  footer .touch_img h2 {
+    color: var(--secondary-color, #FCD043);
+    font-family: Miracle;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  footer .find_room_txt {
+    width: 150px;
+    height: 15px;
+    margin-top: 500px;
+    margin-left: 10px;
+  }
+  footer .find_room_txt h3 {
+    color: var(--text, #1B3B36);
+    font-family: Helvetica Neue LT Std;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  footer .find_room_list {
+    display: flex;
+    width: 450px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  footer .find_room_list .find_room_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    margin-top: -5px;
+    border: 1px solid #313F38;
+  }
+  footer .find_room_list .find_room_menu .check_in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    height: 60px;
+  }
+  footer .find_room_list .find_room_menu .check_in h5 {
+    color: var(--text, #1B3B36);
+    font-family: Helvetica Neue LT Std;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    text-transform: uppercase;
+  }
+  footer .find_room_list .find_room_menu .check_in img {
+    margin-top: -9px;
+  }
+  footer .find_room_list .find_room_menu .restangle_find {
+    width: 1px;
+    height: 40px;
+    flex-shrink: 0;
+    opacity: 0.24;
+    background: #313F38;
+  }
+  footer .find_room_list .find_room_menu .check_out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    height: 60px;
+  }
+  footer .find_room_list .find_room_menu .check_out h5 {
+    color: var(--text, #1B3B36);
+    font-family: Helvetica Neue LT Std;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    text-transform: uppercase;
+  }
+  footer .find_room_list .find_room_menu .check_out img {
+    margin-top: -9px;
+  }
+  footer .find_room_list .find_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 60px;
+  }
+  footer .find_room_list .find_btn button {
+    width: 150px;
+    height: 70px;
+    flex-shrink: 0;
+    color: #FFFCF6;
+    text-align: center;
+    font-family: Helvetica Neue LT Std;
+    font-size: 13px;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 111.111% */
+    text-transform: uppercase;
+    border: none;
+    background-color: #1B3B36;
+  }
+  footer .footer_menu {
+    display: flex;
+    width: 900px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  footer .footer_menu .about {
+    width: 250px;
+    height: 100%;
+  }
+  footer .footer_menu .about h2 {
+    color: var(--text, #1B3B36);
+    font-family: Helvetica Neue LT Std;
+    margin-top: 60px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  footer .footer_menu .about h2 span {
+    color: #FCD043;
+  }
+  footer .footer_menu .about p {
+    width: 200px;
+    color: #1B3B36;
+    font-family: Helvetica Neue LT Std;
+    margin-top: 30px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+  }
+  footer .footer_menu .about .bank_hotel_txt {
+    color: #1B3B36;
+    font-family: Helvetica Neue LT Std;
+    margin-top: 45px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 171.429% */
+    opacity: 0.32;
+  }
+  footer .footer_menu .news {
+    width: 250px;
+    height: 100%;
+  }
+  footer .footer_menu .news h2 {
+    color: var(--text, #1B3B36);
+    font-family: Helvetica Neue LT Std;
+    margin-top: 60px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  footer .footer_menu .news h2 span {
+    color: #FCD043;
+  }
+  footer .footer_menu .news p {
+    width: 200px;
+    color: #1B3B36;
+    font-family: Helvetica Neue LT Std;
+    margin-top: 30px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  footer .footer_menu .news .email {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    border: 1px solid #313F38;
+  }
+  footer .footer_menu .news .email input {
+    width: 120px;
+    display: flex;
+    border: none;
+    margin-left: 5px;
+  }
+  footer .footer_menu .news .email svg {
+    display: flex;
+    margin-left: 10px;
+  }
+  footer .footer_menu .social {
+    width: 200px;
+    height: 100%;
+  }
+  footer .footer_menu .social h2 {
+    color: var(--text, #1B3B36);
+    font-family: Helvetica Neue LT Std;
+    margin-top: 60px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  footer .footer_menu .social h2 span {
+    color: #FCD043;
+  }
+  footer .footer_menu .social ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: -35px;
+  }
+  footer .footer_menu .social ul li {
+    color: var(--text, #1B3B36);
+    font-family: Helvetica Neue LT Std;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    text-transform: uppercase;
   }
 }
 
