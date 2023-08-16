@@ -1,1 +1,0 @@
-# imtihon-D-t
