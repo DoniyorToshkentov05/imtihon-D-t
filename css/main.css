@@ -1,3 +1,264 @@
+.gallery {
+  width: 1920px;
+  background: var(--primary-color, #313F38);
+  height: 2130px;
+}
 
+.span-resp {
+  color: var(--white, #FFFCF6);
+  font-family: Helvetica Neue LT Std;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-top: 323px;
+  position: absolute;
+  margin-left: 30px;
+}
 
-/*# sourceMappingURL=main.css.map */
+.star-label {
+  margin-left: 885px;
+  margin-top: 299px;
+  position: absolute;
+}
+
+.our-h1 {
+  color: var(--secondary-color, #FCD043);
+  text-align: center;
+  font-family: Miracle;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130px; /* 86.667% */
+  text-transform: uppercase;
+  margin-top: 458px;
+  position: absolute;
+  margin-left: 380px;
+}
+
+.pst-lvl {
+  color: var(--white, #FFFCF6);
+  text-align: center;
+  font-family: Helvetica Neue LT Std;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  opacity: 0.8;
+  margin-top: 738px;
+  position: absolute;
+  margin-left: 735px;
+}
+
+.room {
+  margin-top: 549px;
+}
+
+.omg-p {
+  margin-left: 485px;
+  margin-top: 60px;
+}
+
+.stul {
+  margin-left: 1566px;
+  margin-top: -1200px;
+}
+
+.ye-ls {
+  margin-left: 19px;
+  margin-top: -280px;
+}
+
+.polg-7 {
+  margin-left: 502px;
+  margin-top: -40px;
+}
+
+.it-s {
+  color: var(--white, #FFFCF6);
+  font-family: Helvetica Neue LT Std;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.8;
+  margin-left: 582px;
+  margin-top: -50px;
+}
+
+.vann-n {
+  margin-left: 1447px;
+}
+
+.bast-lop {
+  color: rgba(255, 252, 246, 0.12);
+  font-family: Miracle;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140px; /* 116.667% */
+  margin-top: -100px;
+}
+
+@media (max-width: 1285px) {
+  .star-label {
+    width: 100.005px;
+    height: 71.927px;
+    flex-shrink: 0;
+    margin-left: 700px;
+  }
+  .our-h1 {
+    width: 749px;
+    height: 105px;
+    margin-left: 360px;
+  }
+  .omg-p {
+    width: 690px;
+    height: 451.965px;
+    flex-shrink: 0;
+    margin-top: 100px;
+  }
+  .pst-lvl {
+    width: 450px;
+    margin-top: 750px;
+    margin-left: 500px;
+  }
+  .stul {
+    width: 355px;
+    height: 236.667px;
+    flex-shrink: 0;
+  }
+  .vann-n {
+    width: 335px;
+    height: 214.763px;
+    flex-shrink: 0;
+  }
+  .ye-ls {
+    width: 241.439px;
+    height: 300.846px;
+    flex-shrink: 0;
+  }
+  .room {
+    width: 355px;
+    height: 227.585px;
+    flex-shrink: 0;
+  }
+  .igm {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .star-label {
+    width: 70px;
+    height: 50.345px;
+    flex-shrink: 0;
+  }
+  .our-h1 {
+    width: 549px;
+    height: 80px;
+    margin-left: 470px;
+    margin-top: 380px;
+  }
+  .pst-lvl {
+    width: 350px;
+    margin-top: 680px;
+    margin-left: 590px;
+  }
+  .omg-p {
+    width: 482px;
+    height: 315.721px;
+    flex-shrink: 0;
+    margin-top: 120px;
+  }
+  .room {
+    width: 299.493px;
+    height: 192px;
+    flex-shrink: 0;
+  }
+  .ye-ls {
+    width: 126px;
+    height: 171.041px;
+    flex-shrink: 0;
+  }
+  .stul {
+    width: 220.499px;
+    height: 146.999px;
+    flex-shrink: 0;
+    margin-left: 1300px;
+  }
+  .vann-n {
+    width: 251px;
+    height: 160.912px;
+    flex-shrink: 0;
+    margin-left: 1200px;
+  }
+  .igm {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  .star-label {
+    width: 50.345px;
+    height: 70px;
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+    margin-left: 140px;
+    margin-top: 370px;
+  }
+  .our-h1 {
+    width: 200px !important;
+    height: 120px !important;
+    margin-left: 20px;
+    margin-top: 460px;
+    font-size: 70px;
+  }
+  .span-resp {
+    display: none;
+  }
+  .room {
+    width: 192px;
+    height: 250px;
+    flex-shrink: 0;
+    margin-top: 1000px;
+  }
+  .ye-ls {
+    width: 152px;
+    height: 206.335px;
+    flex-shrink: 0;
+    justify-content: start;
+    align-items: start;
+    display: none;
+  }
+  .bast-lop {
+    display: none;
+  }
+  .pst-lvl {
+    width: 354px;
+    margin-left: 0;
+    font-size: 20px;
+    margin-top: 740px;
+  }
+  .vann-n {
+    width: 123px;
+    height: 123px;
+    flex-shrink: 0;
+    margin-left: 220px;
+    margin-top: -450px;
+  }
+  .omg-p {
+    display: none;
+  }
+  .polg-7 {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    margin-left: 10px;
+    margin-top: 60px;
+  }
+  .it-s {
+    margin-left: 50px;
+    margin-top: -50px;
+  }
+}
