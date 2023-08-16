@@ -836,6 +836,108 @@
     height: 70px;
   }
 }
+@font-face {
+  font-family: Miracle;
+  src: url(/font/Miracle\ Personal\ use.otf);
+}
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+  src: url(/font/helvet.otf);
+}
+.conference {
+  width: 1440px;
+  display: flex;
+  background: #fffcf6;
+  flex-direction: column;
+  column-gap: 10%;
+  margin: 0 auto;
+}
+
+.block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  align-items: center;
+  border-bottom: 1px dotted black;
+  height: 334px;
+}
+.block .img-div {
+  width: 20%;
+}
+.block .space {
+  display: none;
+}
+.block .block-img {
+  width: 100%;
+}
+.block .block-name {
+  font-size: 50px;
+  font-family: Miracle;
+}
+.block .block-number {
+  font-size: 50px;
+  font-family: Miracle;
+}
+
+@media only screen and (max-width: 1024px) {
+  .block {
+    height: 210px;
+  }
+  .block .block-name {
+    font-size: 36px;
+    font-family: Miracle;
+  }
+  .block .block-number {
+    font-size: 36px;
+    font-family: Miracle;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .block {
+    height: 250px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  .block .space {
+    display: block;
+    width: 10%;
+  }
+  .block .block-img {
+    width: 40%;
+  }
+  .block .img-div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  .block .img-div .block-img {
+    width: 60%;
+  }
+  .block .div {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .block .block-name {
+    display: block;
+    margin-top: 10px;
+    font-family: Miracle;
+  }
+  .block .arrow {
+    display: none;
+  }
+  .block .block-name {
+    font-size: 24px;
+  }
+  .block .block-number {
+    font-size: 24px;
+    font-family: Miracle;
+  }
+}
 .gallery {
   width: 1440px;
   background: var(--primary-color, #313F38);
